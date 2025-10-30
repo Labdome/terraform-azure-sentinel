@@ -12,7 +12,7 @@ terraform {
 <<<<<<< HEAD
     organization = "labdome"
 =======
-    organization = "reddome_academy"
+    organization = "labdome"
 >>>>>>> dbae2fa8b41011500b9fca7063cb1303918df7c7
     workspaces {
       name = "terraform-azure-sentinel"
