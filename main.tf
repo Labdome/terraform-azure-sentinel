@@ -10,8 +10,7 @@ terraform {
 
   cloud {
     organization = "labdome"
-    organization = "labdome"
-    workspaces {
+        workspaces {
       name = "terraform-azure-sentinel"
     }
   }
