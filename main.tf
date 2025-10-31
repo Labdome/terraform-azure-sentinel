@@ -9,12 +9,8 @@ terraform {
   required_version = ">= 1.0.0"
 
   cloud {
-<<<<<<< HEAD
     organization = "labdome"
-=======
-    organization = "reddome_academy"
->>>>>>> dbae2fa8b41011500b9fca7063cb1303918df7c7
-    workspaces {
+        workspaces {
       name = "terraform-azure-sentinel"
     }
   }
